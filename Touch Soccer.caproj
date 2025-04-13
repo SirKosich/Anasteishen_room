@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Touch Soccer</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2mk8ghxldu7im</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Player" sid="4361650104614906">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="1176602520506361">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4431524830900082" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-5.png">
+                        <collision-poly>
+                            <point x="0.208108" y="0.208108" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.841892" y="0.158108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="4210093676803821">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Frame" sid="4379371111609701">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="135575909356477">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7744749525847954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pointer" sid="9421891064434021">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Ball" sid="6083206398940219">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="4969495413255541">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3734592136244594" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\мяч.png">
+                        <collision-poly>
+                            <point x="0.337838" y="0.608108" />
+                            <point x="0.5" y="0.194595" />
+                            <point x="0.662162" y="0.608108" />
+                            <point x="0.673423" y="0.5" />
+                            <point x="0.662162" y="0.391892" />
+                            <point x="0.5" y="0.805405" />
+                            <point x="0.337838" y="0.391892" />
+                            <point x="0.326577" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="9878185726378799">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Player2" sid="2750002892822268">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="2100360569632155">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2417046127687481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-4.png">
+                        <collision-poly>
+                            <point x="0.208108" y="0.208108" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.841892" y="0.158108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Frame2" sid="8250478966851487">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2093942569489193" speed="5">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.509091" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Enemy" sid="6732095234906926">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="5492848517849074">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4084516883450928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-2.png">
+                        <collision-poly>
+                            <point x="0.208108" y="0.208108" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.791892" y="0.208108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gatesOfTheEnemy" sid="4264112336607802">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2591644557462669" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="2621915687702143">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Player3" sid="2365516069601162">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="3949757248959496">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1745452148322143" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-6.png">
+                        <collision-poly>
+                            <point x="0.208108" y="0.208108" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.841892" y="0.158108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Enemy2" sid="2049497738099971">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="2922656700754338">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5157149573009382" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-1.png">
+                        <collision-poly>
+                            <point x="0.208108" y="0.208108" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.791892" y="0.208108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Enemy3" sid="3423204098752921">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="420384463616187">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7225207823960198" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\Без имени-3.png">
+                        <collision-poly>
+                            <point x="0.206757" y="0.206757" />
+                            <point x="0.5" y="0.0905405" />
+                            <point x="0.791892" y="0.208108" />
+                            <point x="0.921622" y="0.5" />
+                            <point x="0.804054" y="0.804054" />
+                            <point x="0.5" y="0.935135" />
+                            <point x="0.194595" y="0.805405" />
+                            <point x="0.077027" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackgroundGrass" sid="6114227816581222">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\nasty\Desktop\Без имени-1.png" />
+        </object-type>
+        <object-type name="gateBlue" sid="7385782247507105">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387487940393497" speed="5">
+                    <frame duration="1" hotspotX="0.525253" hotspotY="0.495098">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground4" sid="8407156450094734">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Score" sid="4288757828811886">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="gatesOfThePlayer" sid="7428646132273148">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4003302664638961" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fade" sid="5093281791836936">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Fade" sid="2546551206565098">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Fade2" sid="8405582212277837">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Background" sid="9356710464807043">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2511689725151752" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nasty\Desktop\фон.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OnePlayer" sid="1458868974908011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7596332892130762" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507937" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TwoPlayers" sid="5660040829063987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5182575012424195" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507937" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Victory" sid="5323749883842302">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1860735762824323">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8684890908559137" speed="5">
+                    <frame duration="1" hotspotX="0.503371" hotspotY="0.663333" />
+                </animation>
+                <animation framecount="1" loop="0" name="2Player" pingpong="0" repeatcount="1" repeatto="0" sid="4363243740663767" speed="5">
+                    <frame duration="1" hotspotX="0.496629" hotspotY="0.626667" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gates2" sid="104558617281111">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637150138888294" speed="5">
+                    <frame duration="1" hotspotX="0.525253" hotspotY="0.495098">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gateRed" sid="630252842295814">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693592709993241" speed="5">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Game.xml</layout>
+        <layout>Menu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>GameEvent.xml</event-sheet>
+        <event-sheet>Menu.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
